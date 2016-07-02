@@ -27,6 +27,7 @@ plt.plot(data, 'ro')
 #Goal here is to find the frequency of each number in the randint function
 
 
+
 #Building a distance table
 #distanceTable = [[]*numPoints]
 #for i in range(numPoints-1):
