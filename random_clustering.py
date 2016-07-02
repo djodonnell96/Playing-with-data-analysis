@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from numpy import random as rand
 import matplotlib.pyplot as plt
-from sklearn import preprocessing
 
 #Data
 numPoints = 5555 #self explainatory

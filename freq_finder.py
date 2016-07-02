@@ -5,11 +5,13 @@ Created on Thu Jun 30 11:08:58 2016
 @author: dodonnell
 """
 
-#Algorithm:
-#For each item in the data, check against each element in 
-#the reference list until a match is found
-#Each non-match will be placed in the len(ref)+1th position
-#the data is then normalized and returned as percentages 
+"""
+Algorithm:
+For each item in the data, check against each element in 
+the reference list until a match is found
+Each non-match will be placed in the len(ref)+1th position
+the data is then normalized and returned as percentages 
+"""
 def findFreq(data, ref):
     #local data
     posCount = [0 for i in len(ref)+1] #Positional count keeps track of how many times data shows up relative to reference list
