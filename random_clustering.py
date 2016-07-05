@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from numpy import random as rand
 import matplotlib.pyplot as plt
-from sklearn import preprocessing
 
 #Data
 numPoints = 5555 #self explainatory
@@ -26,6 +25,7 @@ plt.plot(data, 'ro')
 
 #Begin weird stuff
 #Goal here is to find the frequency of each number in the randint function
+
 
 
 #Building a distance table
